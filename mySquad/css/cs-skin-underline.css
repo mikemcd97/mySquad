@@ -1,16 +1,32 @@
+body {
+background-color: #222E50;
+}
+
 h1 {
 	font-family: "playfair display", serif;
 	font-size: 6em;
+	margin: 0;
+	color: #8BB174;
 }
 .cs-skin-underline {
 	font-family: "open sans condensed", sans-serif;
+	font-size: 1.5em;
+	color: #8BB174;
 }
 .realdeal {
 	position: relative;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-end;
+	justify-content: flex-start;
+	left: 5%;
 }
 
 section {
 	position: absolute;
+	left: 31.5%;
+	bottom: 5%;
+	/*font-size: 3em;*/
 }
 div.cs-skin-underline {
 	background: transparent;
@@ -45,7 +61,7 @@ div.cs-skin-underline {
 }
 
 .cs-skin-underline .cs-options {
-	background: #bbc7c8;
+	background: transparent;
 	opacity: 0;
 	-webkit-transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
 	transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
@@ -91,7 +107,7 @@ div.cs-skin-underline {
 	left: 0;
 	height: 3px;
 	width: 100%;
-	background-color: #fff;
+	background-color: #8BB174;
 	-webkit-transform: translate3d(200%,0,0);
 	transform: translate3d(200%,0,0);
 	-webkit-transition: -webkit-transform 0.3s;
