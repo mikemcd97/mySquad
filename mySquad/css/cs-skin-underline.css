@@ -12,6 +12,11 @@ h1 {
 	font-family: "open sans condensed", sans-serif;
 	font-size: 1.5em;
 	color: #8BB174;
+
+}
+
+.cs-skin-underline:hover {
+	color: #B5CA8D;
 }
 .realdeal {
 	position: relative;
