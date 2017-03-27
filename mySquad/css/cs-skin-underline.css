@@ -8,9 +8,24 @@ h1 {
 	margin: 0;
 	color: #8BB174;
 }
+
+.instruction {
+	font-family: "open sans condensed", sans-serif;
+	display: flex;
+	color: #8BB174;
+	text-align: center;
+	justify-content: center;
+	align-content: flex-end;
+
+}
+
+.instruction::after {
+	border-right: solid 2px #8BB174 ;
+}
 .cs-skin-underline {
 	font-family: "open sans condensed", sans-serif;
 	font-size: 1.5em;
+	width: 100%;
 	color: #8BB174;
 
 }
